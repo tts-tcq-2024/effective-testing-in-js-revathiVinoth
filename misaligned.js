@@ -6,7 +6,7 @@ function calculateColorMap() {
     const colorMap = [];
     for (let i = 0; i < majorColors.length; i++) {
         for (let j = 0; j < minorColors.length; j++) {
-            colorMap.push(`${i * 5 + j} | ${majorColors[i]} | ${minorColors[j]}`)
+            colorMap.push(`${i * 5 + j} | ${majorColors[i]} | ${minorColors[i]}`)
         }
     }
     return colorMap;
